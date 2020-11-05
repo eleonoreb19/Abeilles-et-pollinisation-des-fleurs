@@ -1,0 +1,54 @@
+body {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header, footer {
+  background-color: #FFC133;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+#abeille{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50px;
+  height:50px;
+
+}
+
+article {
+  min-height: 70vh;
+}
+
+nav a {
+
+  color: #000;
+}
+nav li{
+  display:inline-block;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content video {
+  display: block;
+  flex-basis: 650px;
+  margin-left: 50%;
+  margin-bottom:
+}
+
+.content p {
+  flex-basis: 650px;
+  padding: 2em;
+}
